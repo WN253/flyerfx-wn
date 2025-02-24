@@ -6,8 +6,7 @@ const GoogleTranslateComponent = () => {
   const [translatedMalayalam, setTranslatedMalayalam] = useState("");
   const [translatedArabic, setTranslatedArabic] = useState("");
 
-  const API_KEY = "API-KEY";
-  const API_URL = `https://translation.googleapis.com/language/translate/v2?key=${API_KEY}`;
+  const API_URL = `https://script.google.com/macros/s/AKfycbxBeHCWWfsBB9cphwjGJ72kCio140sUvdBmRe8VSsCHGOaqembE-RJ3h25o8lITsvjbWA/exec`;
 
   const handleTranslate = async () => {
     try {
